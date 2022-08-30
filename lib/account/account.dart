@@ -27,7 +27,7 @@ class _AccountState extends State<Account> {
       body: Column(
         children: [
           Stack(
-            overflow: Overflow.visible,
+           // overflow: Overflow.visible,
             alignment: Alignment.center,
             children: [
               Container(

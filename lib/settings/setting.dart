@@ -136,10 +136,10 @@ void signOutDrawer(BuildContext context) {
                     width: 20.0,
                   ),
                   Expanded(
-                    child: OutlineButton(
-                      color: kPrimaryColor,
-                      highlightedBorderColor: kWhiteColor,
-                      borderSide: BorderSide(color: kWhiteColor),
+                    child: OutlinedButton(
+                     // color: kPrimaryColor,
+                     // highlightedBorderColor: kWhiteColor,
+                     // borderSide: BorderSide(color: kWhiteColor),
                       child: Text(
                         'Cancel',
                         style: TextStyle(

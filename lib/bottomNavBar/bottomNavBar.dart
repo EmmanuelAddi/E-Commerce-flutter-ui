@@ -41,25 +41,25 @@ class _BottomNavBarState extends State<BottomNavBar> {
         selectedItemColor: kPrimaryColor,
         unselectedItemColor: kLightColor,
         backgroundColor: kWhiteColor,
-        // showSelectedLabels: true,
+         showSelectedLabels: true,
         showUnselectedLabels: true,
         type: BottomNavigationBarType.fixed,
         items: [
           BottomNavigationBarItem(
             icon: Icon(Icons.home),
-            title: Text('Home'),
+            label: 'Home',
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.category),
-            title: Text('Category'),
+            label: 'Category',
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.shopping_cart),
-            title: Text('Cart'),
+            label: 'Cart',
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.person),
-            title: Text('Account'),
+            label: 'Account',
           ),
         ],
       ),
